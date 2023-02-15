@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random word game</title>
+    <!-- styles css link -->
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <h1 class="marq"><marquee behavior="alternate" direction="right" Scrollamount="10">Games</marquee></h1>
+    <div class="container">
+        <div class="select-wrapper">
+            <select class="select" onchange="test()">
+                <option value="Oson" >Oson</option>
+                <option value="O'rta">O'rta</option>
+                <option value="Qiyin">Qiyin</option>
+            </select>
+        </div>
+
+        <h1 class="title">Typing O'yini</h1>
+        <h2 class="words">Kuting...</h2>
+        <input class="input " type="text" placeholder="So'z yozing..." autofocus>
+
+        <h5 class="score">Natija: <span>0</span></h5>
+        <h5 class="time">Vaqt: <span>00:15</span></h5>
+    </div>
+
+    <div class="overlay">
+        <div class="modal">
+            <h2 class="modal-score">Sizning natijangiz: <span>0</span></h2>
+            <a class="restart-btn" href="./index.html">Qaytadan boshlash</a>
+        </div>
+    </div>
+
+    <script src="./words.js"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>
