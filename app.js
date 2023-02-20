@@ -11,8 +11,8 @@ const overlay = document.querySelector(".overlay")
 
 let a;
 let b = 0
-let audio = new Audio('/error.mp3')
-let audio2 = new Audio('/break.mp3')
+let audio = new Audio('error.mp3')
+let audio2 = new Audio('break.mp3')
 let q = 'Oson'
 let x = 15;
 
